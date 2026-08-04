@@ -1,0 +1,9 @@
+{
+  "git": {
+    "userName": "",
+    "userEmail": ""
+  },
+  "paths": {
+    "workspace": "~/dev/workspace"
+  }
+}
