@@ -1,0 +1,15 @@
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store

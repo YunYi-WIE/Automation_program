@@ -1,0 +1,20 @@
+# 统一换行符与文本处理方式，避免跨平台协作时脚本失效
+* text=auto
+
+# PowerShell / 批处理脚本：Windows 上使用 CRLF
+# 注意：setup.ps1 还必须保存为「UTF-8 with BOM」，这一点由编辑器保证，git 无法自动处理
+*.ps1   text eol=crlf
+*.psm1  text eol=crlf
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
+
+# 文档与配置保持 LF
+*.md    text eol=lf
+*.json  text eol=lf
+
+# 二进制文件不做换行转换
+*.png   binary
+*.jpg   binary
+*.ico   binary
+*.exe   binary
+*.dll   binary
